@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "codex exec \"review changes since last commit and write results to review_results.md\""
+          }
+        ]
+      }
+    ]
+  }
+}
